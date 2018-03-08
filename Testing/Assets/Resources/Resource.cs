@@ -13,4 +13,18 @@ public class Resource : MonoBehaviour {
         Quantity += value;
         OnQuantityChange.Invoke();
     }
+
+    public void Substract ( int value )
+    {
+        if (Quantity - value < 0)
+        {
+            print("You do not have enough resources. Please gather some more");
+        }
+        else
+        {
+            Quantity -= value;
+            OnQuantityChange.Invoke();
+        }
+
+    }
 }
