@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 14
-  productGUID: 387f93a09dc9675488b93fee69f985e5
+  productGUID: b12658b89ffb4a04bb78fadd4df7fde0
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   defaultScreenOrientation: 4
@@ -12,7 +12,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: MyProject
+  productName: MyProjectGame
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -557,14 +557,14 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: MyProject
+  metroPackageName: MyProjectGame
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: MyProject
+  metroApplicationDescription: MyProjectGame
   wsaImages: {}
   metroTileShortName: 
   metroCommandLineArgsFile: 
@@ -633,8 +633,8 @@ PlayerSettings:
     UNet: 1
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
-  cloudProjectId: 3b24f377-4c5e-4867-bc37-cd49fd0f895a
-  projectName: MyProject
+  cloudProjectId: e82bd98d-7e01-40d9-b646-982d47a24cb5
+  projectName: MyProjectGame
   organizationId: brentschoenmakers
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
