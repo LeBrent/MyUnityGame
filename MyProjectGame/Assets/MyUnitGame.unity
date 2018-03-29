@@ -156,6 +156,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &579068
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -252,6 +260,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &3134489
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -348,6 +364,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &10464433
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -444,6 +468,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &12980080
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -540,6 +572,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &17490161
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -636,6 +676,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &28655421
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -732,6 +780,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &50175493
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -828,6 +884,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &57318494
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -924,6 +988,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &67919171
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1020,6 +1092,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &74217132
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1116,6 +1196,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &85260639
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1212,6 +1300,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &85865169
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1308,6 +1404,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &87159980
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1404,6 +1508,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &101544185
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1500,6 +1612,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &147469790
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1596,6 +1716,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &152451411
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1732,6 +1860,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &167298026
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1828,6 +1964,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &170612962
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1924,6 +2068,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &182024706
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2020,6 +2172,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &189714663
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2133,7 +2293,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &224356970
 GameObject:
@@ -2178,6 +2338,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &224356973
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2274,6 +2442,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &251967676
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2370,6 +2546,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &280417722
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2506,6 +2690,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &289232251
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2602,6 +2794,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &308121640
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2698,6 +2898,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &311328565
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2794,6 +3002,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &311955097
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2890,6 +3106,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &332694667
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2986,6 +3210,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &397785543
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3082,6 +3314,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &401421644
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3178,6 +3418,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &416743909
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3274,6 +3522,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &425122123
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3370,6 +3626,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &432907446
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3466,6 +3730,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &461433893
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3557,7 +3829,7 @@ Transform:
   - {fileID: 1800125462}
   - {fileID: 286756098}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &497773530
 GameObject:
@@ -3647,7 +3919,7 @@ RectTransform:
   - {fileID: 714625271}
   - {fileID: 967107113}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -3697,6 +3969,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &524076076
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3793,6 +4073,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &571928336
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3889,6 +4177,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &599797573
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3985,6 +4281,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &613333147
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4081,6 +4385,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &621826773
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4177,6 +4489,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &625561562
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4273,6 +4593,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &653596559
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4369,6 +4697,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &694684659
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4465,6 +4801,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &697576729
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4561,6 +4905,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &703248951
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4657,6 +5009,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &703995499
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4753,6 +5113,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &705534601
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4818,7 +5186,7 @@ GameObject:
   - component: {fileID: 714625273}
   - component: {fileID: 714625272}
   m_Layer: 5
-  m_Name: Button
+  m_Name: ButtonLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4840,7 +5208,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 15, y: 0}
+  m_AnchoredPosition: {x: 114, y: 0}
   m_SizeDelta: {x: 30, y: 160}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &714625272
@@ -4881,7 +5249,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 714625273}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 716267438}
+        m_MethodName: RotateLeft
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &714625273
@@ -4917,6 +5296,47 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 714625270}
+--- !u!1 &716267437
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 716267439}
+  - component: {fileID: 716267438}
+  m_Layer: 0
+  m_Name: TacticsCamera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &716267438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 716267437}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52b1590d2c1810144aff696cc3abe265, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &716267439
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 716267437}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1607950066}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &719527030
 GameObject:
   m_ObjectHideFlags: 0
@@ -4960,6 +5380,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &719527033
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5056,6 +5484,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &753955825
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5152,6 +5588,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &762335018
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5248,6 +5692,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &763192466
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5344,6 +5796,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &774538986
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5440,6 +5900,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &780102403
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5536,6 +6004,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &802857030
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5632,6 +6108,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &816370596
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5728,6 +6212,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &864542233
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5824,6 +6316,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &866929425
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5920,6 +6420,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &868869691
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6016,6 +6524,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &878269451
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6112,6 +6628,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &891674677
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6208,6 +6732,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &892152351
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6304,6 +6836,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &908168572
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6400,6 +6940,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &927518208
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6496,6 +7044,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &929504939
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6592,6 +7148,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &938294458
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6753,6 +7317,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &961628904
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6818,7 +7390,7 @@ GameObject:
   - component: {fileID: 967107115}
   - component: {fileID: 967107114}
   m_Layer: 5
-  m_Name: Button (1)
+  m_Name: ButtonRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6840,7 +7412,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -15, y: 0}
+  m_AnchoredPosition: {x: -50, y: 0}
   m_SizeDelta: {x: 30, y: 160}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &967107114
@@ -6881,7 +7453,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 967107115}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 716267438}
+        m_MethodName: RotateRight
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &967107115
@@ -6960,6 +7543,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &968366043
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7056,6 +7647,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &999006399
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7226,6 +7825,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &1036187742
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7322,6 +7929,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &1047840713
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7418,6 +8033,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &1055226909
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7514,6 +8137,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &1055552549
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7610,6 +8241,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &1056970303
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7706,6 +8345,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &1064157536
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7882,6 +8529,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &1133837302
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7978,6 +8633,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &1136502909
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8074,6 +8737,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &1139148343
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8170,6 +8841,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &1144986336
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8266,6 +8945,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &1174031554
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8362,6 +9049,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &1174352324
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8458,6 +9153,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &1199593044
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8594,6 +9297,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &1219359815
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8690,6 +9401,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &1221727160
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8786,6 +9505,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &1239894707
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8922,6 +9649,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &1245781118
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -9018,6 +9753,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &1255435090
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -9114,6 +9857,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &1268105183
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -9210,6 +9961,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &1286917103
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -9306,6 +10065,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &1299114315
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -9402,6 +10169,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &1308858852
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -9498,6 +10273,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &1317608585
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -9594,6 +10377,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &1320766411
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -9690,6 +10481,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &1321791529
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -9786,6 +10585,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &1341624985
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -9882,6 +10689,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &1360260414
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -9978,6 +10793,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &1373872015
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -10114,6 +10937,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &1393533643
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -10210,6 +11041,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &1438014475
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -10306,6 +11145,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &1441211582
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -10402,6 +11249,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &1445560125
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -10498,6 +11353,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &1447599553
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -10594,6 +11457,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &1453875820
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -10690,6 +11561,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &1456608910
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -10786,6 +11665,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &1464494659
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -10882,6 +11769,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &1479354285
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -10978,6 +11873,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &1518909626
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -11074,6 +11977,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &1533513181
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -11170,6 +12081,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &1545440680
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -11266,6 +12185,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &1573492230
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -11362,6 +12289,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &1583689773
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -11458,6 +12393,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &1593446184
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -11554,6 +12497,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &1603982687
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -11681,11 +12632,11 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1607950062}
-  m_LocalRotation: {x: 0.5, y: 0, z: 0, w: 0.8660254}
+  m_LocalRotation: {x: 0.5, y: -0, z: -0, w: 0.8660254}
   m_LocalPosition: {x: 0, y: 12, z: -9}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 716267439}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 60, y: 0, z: 0}
 --- !u!1 &1621183430
@@ -11731,6 +12682,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &1621183433
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -11784,6 +12743,107 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1621183430}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1641688300
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1641688305}
+  - component: {fileID: 1641688304}
+  - component: {fileID: 1641688303}
+  - component: {fileID: 1641688302}
+  - component: {fileID: 1641688301}
+  m_Layer: 0
+  m_Name: Player
+  m_TagString: Player
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1641688301
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1641688300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb256e8ef4d7b374b987762a5cf8b05e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moving: 0
+  move: 5
+  jumpheight: 0
+  moveSpeed: 2
+--- !u!23 &1641688302
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1641688300}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 5a37066afa0b4b34bbbc91ccd74aeaf2, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 1
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!136 &1641688303
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1641688300}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 2
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &1641688304
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1641688300}
+  m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1641688305
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1641688300}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.5, y: 1.4, z: -5.5}
+  m_LocalScale: {x: 0.9, y: 0.9, z: 0.9}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1656579300
 GameObject:
   m_ObjectHideFlags: 0
@@ -11827,6 +12887,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &1656579303
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -11923,6 +12991,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &1668410795
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -12019,6 +13095,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &1671038676
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -12115,6 +13199,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &1697480439
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -12251,6 +13343,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &1742802817
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -12387,6 +13487,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &1767226879
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -12523,6 +13631,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &1802751551
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -12619,6 +13735,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &1812558437
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -12789,6 +13913,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &1837784804
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -12885,6 +14017,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &1853182501
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -12981,6 +14121,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &1861732596
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -13117,6 +14265,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &1878391453
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -13213,6 +14369,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &1900650594
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -13349,6 +14513,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &1938535812
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -13445,6 +14617,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &1950481669
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -13541,6 +14721,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &1956245300
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -13637,6 +14825,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &1961660034
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -13733,6 +14929,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &1969460315
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -13829,6 +15033,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &1972937612
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -13925,6 +15137,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &2004448188
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -14021,6 +15241,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &2014565050
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -14117,6 +15345,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &2023330358
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -14213,6 +15449,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &2035374020
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -14309,6 +15553,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &2037700760
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -14388,7 +15640,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2040218099}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1131102717}
@@ -14405,6 +15657,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &2040218102
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -14501,6 +15761,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &2043364908
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -14597,6 +15865,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &2044353489
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -14693,6 +15969,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &2079880152
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -14789,6 +16073,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &2093138286
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -14885,6 +16177,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &2101144815
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -14981,6 +16281,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &2128803679
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -15077,6 +16385,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08bb66c7477d7cd42b03a1e9dccef9e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  walkable: 1
+  current: 0
+  target: 0
+  selectable: 0
+  adjecenttiles: []
+  visited: 0
+  parent: {fileID: 0}
+  distance: 0
 --- !u!23 &2129836471
 MeshRenderer:
   m_ObjectHideFlags: 0
