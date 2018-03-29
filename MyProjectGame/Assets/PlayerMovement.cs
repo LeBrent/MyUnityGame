@@ -2,17 +2,23 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerMovement : TacticsMovement {
+public class PlayerMovement : TacticsMovement
+{
 
-	// Use this for initialization
 	void Start ()
     {
         Init();
 	}
-	
-	// Update is called once per frame
+
 	void Update ()
     {
+        Debug.DrawRay(transform.position, transform.forward);
+
+        if (!turn)
+        {
+            return;
+        }
+
         if (!moving)
         {
             FindSelectableTiles();
@@ -20,7 +26,7 @@ public class PlayerMovement : TacticsMovement {
         }
         else
         {
-            //move()
+            Move();
         }
     
 	}
