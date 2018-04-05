@@ -8,7 +8,9 @@ public class TurnManager : MonoBehaviour
     static Queue<string> turnKey = new Queue<string>();
     static Queue<TacticsMovement> turnTeam = new Queue<TacticsMovement>();
 
-	void Start ()
+    static List<TacticsMovement> list;
+
+    void Start ()
     {
 		
 	}
@@ -44,7 +46,7 @@ public class TurnManager : MonoBehaviour
     public static void EndTurn()
     {
         TacticsMovement unit = turnTeam.Dequeue();
-        unit.EndTurn();
+        unit.EndTurnUnit();
 
         if (turnTeam.Count > 0)
         {
@@ -58,10 +60,13 @@ public class TurnManager : MonoBehaviour
         }
     }
 
+    public void ButtonEndTurn()
+    {
+        EndTurn();
+    }
+
     public static void AddUnit(TacticsMovement unit)
     {
-        List<TacticsMovement> list;
-
         if (!units.ContainsKey(unit.tag))
         {
             list = new List<TacticsMovement>();
@@ -78,5 +83,14 @@ public class TurnManager : MonoBehaviour
         }
 
         list.Add(unit);
+    }
+
+    public static void DeleteUnit(TacticsMovement unit)
+    {
+        if (turnKey.Contains(unit.tag))
+        {
+            turnKey.Enqueue(unit.tag);
+            list.Remove(unit);
+        }
     }
 }

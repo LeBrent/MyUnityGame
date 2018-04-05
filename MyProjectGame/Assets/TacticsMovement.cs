@@ -7,15 +7,18 @@ public class TacticsMovement : MonoBehaviour
     public bool turn = false;
 
     List<Tile> selectables = new List<Tile>();
-    GameObject[] tiles;
+    List<Tile> attackables = new List<Tile>();
+    public GameObject[] tiles;
+    TurnManager turnManager;
 
     Stack<Tile> path = new Stack<Tile>();
     Tile currentTile;
 
     public bool moving = false;
-    public int move = 5;
+    public int moveRange = 5;
+    public int attackRange = 6;
     public float jumpheight;
-    public float moveSpeed = 2;
+    public float moveSpeed = 4;
     public float jumpVelocity = 4.5f;
 
     Vector3 velocity = new Vector3();
@@ -78,17 +81,17 @@ public class TacticsMovement : MonoBehaviour
         {
             Tile t = process.Dequeue();
 
-            selectables.Add(t);
-            t.selectable = true;
-
-            if (t.distance < move)
+            if (t.distance < moveRange)
             {
-
-
                 foreach (Tile tile in t.adjecenttiles)
                 {
                     if (!tile.visited)
                     {
+                        selectables.Add(t);
+                        t.selectable = true;
+                        attackables.Add(t);
+                        t.attackable = true;
+
                         tile.parent = t;
                         tile.visited = true;
                         tile.distance = 1 + t.distance;
@@ -96,13 +99,32 @@ public class TacticsMovement : MonoBehaviour
                     }
                 }
             }
+
+            if (t.distance >= moveRange && t.distance < attackRange)
+            {
+                foreach (Tile tile in t.adjecenttiles)
+                {
+                    if (!tile.visited)
+                    {
+                        attackables.Add(t);
+                        t.attackable = true;
+
+                        tile.parent = t;
+                        tile.visited = true;
+                        tile.distance = 1 + t.distance;
+                        process.Enqueue(tile);
+                    }
+                }
+            } 
         }
     }
-    public void MoveToTarget(Tile tile)
+    public void MoveToTarget(Unit unit, Tile tile)
     {
         path.Clear();
         tile.target = true;
         moving = true;
+
+        unit.transform.parent = tile.transform;
 
         Tile next = tile;
         while (next != null)
@@ -150,7 +172,7 @@ public class TacticsMovement : MonoBehaviour
             RemoveSelectableTiles();
             moving = false;
 
-            TurnManager.EndTurn(); //ER IS GEEN COMBAT DUS TURN END NA HET MOVEN!
+            TurnManager.EndTurn();
         }
     }
 
@@ -161,13 +183,12 @@ public class TacticsMovement : MonoBehaviour
             currentTile.current = false;
             currentTile = null;
         }
-
-        foreach (Tile tile in selectables)
+        
+        foreach (Tile tile in attackables)
         {
             tile.Reset();
         }
-
-        selectables.Clear();
+        attackables.Clear();
     }
 
     void CalculateHeading(Vector3 target)
@@ -222,7 +243,7 @@ public class TacticsMovement : MonoBehaviour
             jumpingUp = true;
             movingEdge = false;
 
-            velocity = heading * moveSpeed / 3.0f; //PLAY AROUND WITH THE JUMP SPEED
+            velocity = heading * moveSpeed / 3.0f;
 
             float difference = targetY - transform.position.y;
 
@@ -280,8 +301,14 @@ public class TacticsMovement : MonoBehaviour
         turn = true;
     }
 
-    public void EndTurn()
+    public void EndTurnUnit()
     {
         turn = false;
+        foreach (GameObject tile in tiles)
+        {
+            Tile t = tile.GetComponent<Tile>();
+            t.FindNeightbors(jumpheight);
+            t.attackable = false;
+        }
     }
 }

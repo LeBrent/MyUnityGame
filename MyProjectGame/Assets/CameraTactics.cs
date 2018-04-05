@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CameraTactics : MonoBehaviour {
+public class CameraTactics : MonoBehaviour
+{
     public void RotateLeft()
     {
         transform.Rotate(Vector3.up, 90, Space.Self);

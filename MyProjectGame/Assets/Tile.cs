@@ -8,6 +8,7 @@ public class Tile : MonoBehaviour
     public bool current = false;
     public bool target = false;
     public bool selectable = false;
+    public bool attackable = false;
 
     public List<Tile> adjecenttiles = new List<Tile>();
 
@@ -29,17 +30,18 @@ public class Tile : MonoBehaviour
         {
             GetComponent<Renderer>().material.color = Color.magenta;
         }
-
         else if (target)
         {
             GetComponent<Renderer>().material.color = Color.green;
         }
-
         else if (selectable)
+        {
+            GetComponent<Renderer>().material.color = Color.blue;
+        }
+        else if (attackable)
         {
             GetComponent<Renderer>().material.color = Color.red;
         }
-
         else
         {
             GetComponent<Renderer>().material.color = Color.white;
@@ -52,7 +54,7 @@ public class Tile : MonoBehaviour
         current = false;
         target = false;
         selectable = false;
-
+        attackable = false;
 
         //BFS
         visited = false;
@@ -67,7 +69,6 @@ public class Tile : MonoBehaviour
         CheckTile(Vector3.forward, jumpHeight);
         CheckTile(Vector3.right, jumpHeight);
         CheckTile(-Vector3.right, jumpHeight);
-
 
     }
 
@@ -87,7 +88,10 @@ public class Tile : MonoBehaviour
                 {
                     adjecenttiles.Add(tile);
                 }
-    
+                else
+                {
+                    attackable = true;
+                }
             }
         }
     }

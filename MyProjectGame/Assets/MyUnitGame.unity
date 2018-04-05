@@ -160,6 +160,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -264,6 +265,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -368,6 +370,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -472,6 +475,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -576,6 +580,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -680,6 +685,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -784,6 +790,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -888,6 +895,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -992,6 +1000,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -1096,6 +1105,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -1200,6 +1210,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -1304,6 +1315,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -1408,6 +1420,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -1512,6 +1525,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -1616,6 +1630,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -1720,6 +1735,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -1824,6 +1840,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -1928,6 +1945,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -2032,6 +2050,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -2136,6 +2155,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -2240,6 +2260,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -2344,6 +2365,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -2492,6 +2514,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -2596,6 +2619,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -2700,6 +2724,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -2804,6 +2829,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -2908,6 +2934,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -3118,6 +3145,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -3222,6 +3250,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -3326,6 +3355,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -3430,6 +3460,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -3487,6 +3518,202 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 256444201}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &257911103
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 257911104}
+  - component: {fileID: 257911107}
+  - component: {fileID: 257911106}
+  - component: {fileID: 257911105}
+  m_Layer: 5
+  m_Name: ButtonEndTurn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &257911104
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 257911103}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 268629070}
+  m_Father: {fileID: 497773534}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: -80, y: 25}
+  m_SizeDelta: {x: 160, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &257911105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 257911103}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 257911106}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 779212986}
+        m_MethodName: ButtonEndTurn
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+      Culture=neutral, PublicKeyToken=null
+--- !u!114 &257911106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 257911103}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &257911107
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 257911103}
+--- !u!1 &268629069
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 268629070}
+  - component: {fileID: 268629072}
+  - component: {fileID: 268629071}
+  m_Layer: 5
+  m_Name: Text
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &268629070
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 268629069}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 257911104}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &268629071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 268629069}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 14
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: End Turn
+--- !u!222 &268629072
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 268629069}
 --- !u!1 &280417719
 GameObject:
   m_ObjectHideFlags: 0
@@ -3534,6 +3761,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -3682,6 +3910,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -3786,6 +4015,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -3934,6 +4164,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -4038,6 +4269,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -4142,6 +4374,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -4246,6 +4479,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -4350,6 +4584,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -4454,6 +4689,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -4558,6 +4794,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -4662,6 +4899,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -4766,6 +5004,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -4870,6 +5109,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -4974,6 +5214,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -5078,6 +5319,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -5182,6 +5424,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -5286,6 +5529,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -5390,6 +5634,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -5494,6 +5739,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -5598,6 +5844,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -5786,6 +6033,7 @@ RectTransform:
   m_Children:
   - {fileID: 714625271}
   - {fileID: 967107113}
+  - {fileID: 257911104}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5841,6 +6089,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -5945,6 +6194,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -6049,6 +6299,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -6153,6 +6404,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -6257,6 +6509,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -6361,6 +6614,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -6465,6 +6719,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -6569,6 +6824,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -6673,6 +6929,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -6757,15 +7014,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 607643636}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fb256e8ef4d7b374b987762a5cf8b05e, type: 3}
+  m_Script: {fileID: 11500000, guid: a3750ee3608390046aa8c78fdb22d824, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   turn: 0
+  tiles: []
   moving: 0
-  move: 5
-  jumpheight: 0
-  moveSpeed: 2
+  moveRange: 20
+  attackRange: 21
+  jumpheight: 1
+  moveSpeed: 4
   jumpVelocity: 4.5
+  Health: 100
+  Damage: 50
 --- !u!23 &607643638
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6880,6 +7141,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -6984,6 +7246,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -7088,6 +7351,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -7192,6 +7456,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -7296,6 +7561,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -7400,6 +7666,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -7504,6 +7771,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -7608,6 +7876,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -7712,6 +7981,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -7816,6 +8086,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -7920,6 +8191,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -8024,6 +8296,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -8128,6 +8401,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -8232,6 +8506,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -8321,10 +8596,10 @@ RectTransform:
   m_Father: {fileID: 497773534}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.5}
-  m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 114, y: 0}
-  m_SizeDelta: {x: 30, y: 160}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 80, y: -15}
+  m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &714625272
 MonoBehaviour:
@@ -8445,7 +8720,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 716267437}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 2.42, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1607950066}
@@ -8499,6 +8774,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -8603,6 +8879,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -8707,6 +8984,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -8811,6 +9089,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -8915,6 +9194,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -9019,6 +9299,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -9123,6 +9404,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -9227,6 +9509,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -9371,6 +9654,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -9475,6 +9759,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -9579,6 +9864,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -9683,6 +9969,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -9787,6 +10074,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -9891,6 +10179,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -9995,6 +10284,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -10099,6 +10389,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -10203,6 +10494,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -10307,6 +10599,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -10411,6 +10704,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -10515,6 +10809,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -10619,6 +10914,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -10723,6 +11019,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -10827,6 +11124,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -10931,6 +11229,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -11035,6 +11334,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -11139,6 +11439,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -11243,6 +11544,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -11347,6 +11649,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -11451,6 +11754,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -11555,6 +11859,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -11659,6 +11964,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -11763,6 +12069,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -11867,6 +12174,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -11971,6 +12279,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -12140,6 +12449,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -12244,6 +12554,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -12333,10 +12644,10 @@ RectTransform:
   m_Father: {fileID: 497773534}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 0.5}
-  m_AnchorMax: {x: 1, y: 0.5}
-  m_AnchoredPosition: {x: -50, y: 0}
-  m_SizeDelta: {x: 30, y: 160}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -80, y: -15}
+  m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &967107114
 MonoBehaviour:
@@ -12470,6 +12781,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -12574,6 +12886,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -12678,6 +12991,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -12802,7 +13116,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Button
+  m_Text: Camera Right
 --- !u!222 &1035029490
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -12856,6 +13170,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -12960,6 +13275,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -13064,6 +13380,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -13168,6 +13485,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -13272,6 +13590,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -13376,6 +13695,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -13480,6 +13800,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -13584,6 +13905,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -13688,6 +14010,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -13792,6 +14115,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -13896,6 +14220,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -14044,6 +14369,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -14148,6 +14474,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -14252,6 +14579,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -14444,6 +14772,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -14548,6 +14877,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -14652,6 +14982,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -14756,6 +15087,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -14860,6 +15192,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -14964,6 +15297,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -15068,6 +15402,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -15172,6 +15507,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -15276,6 +15612,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -15380,6 +15717,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -15484,6 +15822,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -15588,6 +15927,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -15736,6 +16076,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -15840,6 +16181,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -15944,6 +16286,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -16048,6 +16391,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -16152,6 +16496,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -16256,6 +16601,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -16360,6 +16706,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -16464,6 +16811,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -16612,6 +16960,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -16716,6 +17065,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -16820,6 +17170,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -16924,6 +17275,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -17028,6 +17380,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -17132,6 +17485,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -17236,6 +17590,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -17340,6 +17695,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -17444,6 +17800,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -17548,6 +17905,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -17652,6 +18010,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -17756,6 +18115,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -17860,6 +18220,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -17964,6 +18325,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -18068,6 +18430,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -18172,6 +18535,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -18276,6 +18640,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -18380,6 +18745,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -18484,6 +18850,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -18588,6 +18955,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -18692,6 +19060,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -18796,6 +19165,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -18944,6 +19314,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -19048,6 +19419,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -19152,6 +19524,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -19256,6 +19629,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -19360,6 +19734,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -19464,6 +19839,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -19568,6 +19944,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -19672,6 +20049,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -19776,6 +20154,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -19880,6 +20259,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -19984,6 +20364,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -20088,6 +20469,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -20192,6 +20574,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -20296,6 +20679,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -20400,6 +20784,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -20504,6 +20889,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -20608,6 +20994,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -20712,6 +21099,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -20816,6 +21204,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -20920,6 +21309,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -21024,6 +21414,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -21128,6 +21519,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -21232,6 +21624,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -21336,6 +21729,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -21440,6 +21834,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -21572,7 +21967,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1607950062}
   m_LocalRotation: {x: 0.5, y: -0, z: -0, w: 0.8660254}
-  m_LocalPosition: {x: 2.71, y: 12.23, z: -11.05}
+  m_LocalPosition: {x: 0, y: 15.86, z: -12.34}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 716267439}
@@ -21625,6 +22020,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -21729,6 +22125,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -21833,6 +22230,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -21917,15 +22315,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 1641688300}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fb256e8ef4d7b374b987762a5cf8b05e, type: 3}
+  m_Script: {fileID: 11500000, guid: a3750ee3608390046aa8c78fdb22d824, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   turn: 0
+  tiles: []
   moving: 0
-  move: 5
-  jumpheight: 0
-  moveSpeed: 2
+  moveRange: 20
+  attackRange: 21
+  jumpheight: 1
+  moveSpeed: 4
   jumpVelocity: 4.5
+  Health: 100
+  Damage: 50
 --- !u!23 &1641688302
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -22040,6 +22442,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -22144,6 +22547,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -22248,6 +22652,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -22352,6 +22757,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -22456,6 +22862,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -22560,6 +22967,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -22708,6 +23116,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -22812,6 +23221,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -22916,6 +23326,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -23064,6 +23475,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -23168,6 +23580,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -23272,6 +23685,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -23376,6 +23790,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -23524,6 +23939,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -23628,6 +24044,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -23732,6 +24149,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -23836,6 +24254,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -23940,6 +24359,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -24044,6 +24464,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -24168,7 +24589,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Button
+  m_Text: Camera Left
 --- !u!222 &1814758165
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -24222,6 +24643,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -24326,6 +24748,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -24430,6 +24853,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -24534,6 +24958,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -24638,6 +25063,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -24786,6 +25212,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -24890,6 +25317,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -25038,6 +25466,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -25142,6 +25571,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -25246,6 +25676,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -25350,6 +25781,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -25454,6 +25886,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -25558,6 +25991,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -25706,6 +26140,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -25810,6 +26245,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -25914,6 +26350,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -26018,6 +26455,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -26122,6 +26560,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -26226,6 +26665,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -26330,6 +26770,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -26434,6 +26875,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -26538,6 +26980,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -26642,6 +27085,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -26746,6 +27190,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -26850,6 +27295,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -26954,6 +27400,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -27058,6 +27505,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -27162,6 +27610,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -27266,6 +27715,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -27370,6 +27820,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -27474,6 +27925,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -27578,6 +28030,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -27682,6 +28135,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -27786,6 +28240,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -27890,6 +28345,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -27994,6 +28450,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -28098,6 +28555,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -28202,6 +28660,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -28306,6 +28765,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
@@ -28410,6 +28870,7 @@ MonoBehaviour:
   current: 0
   target: 0
   selectable: 0
+  attackable: 0
   adjecenttiles: []
   visited: 0
   parent: {fileID: 0}
