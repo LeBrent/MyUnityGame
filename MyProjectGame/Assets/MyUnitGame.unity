@@ -7020,8 +7020,8 @@ MonoBehaviour:
   turn: 0
   tiles: []
   moving: 0
-  moveRange: 20
-  attackRange: 21
+  moveRange: 5
+  attackRange: 6
   jumpheight: 1
   moveSpeed: 4
   jumpVelocity: 4.5
@@ -22321,8 +22321,8 @@ MonoBehaviour:
   turn: 0
   tiles: []
   moving: 0
-  moveRange: 20
-  attackRange: 21
+  moveRange: 5
+  attackRange: 6
   jumpheight: 1
   moveSpeed: 4
   jumpVelocity: 4.5

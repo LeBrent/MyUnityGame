@@ -31,13 +31,16 @@ public class TacticsMovement : MonoBehaviour
     bool movingEdge = false;
     Vector3 jumpTarget;
 
-    protected void Init()
+    protected void Init(Unit unit)
     {
         tiles = GameObject.FindGameObjectsWithTag("Tile");
 
         halfheight = GetComponent<Collider>().bounds.extents.y;
 
-        TurnManager.AddUnit(this);
+        TurnManager.AddUnit(unit);
+
+        GetCurrentTile();
+        unit.transform.parent = currentTile.transform;
     }
 
     public void GetCurrentTile()
@@ -76,6 +79,7 @@ public class TacticsMovement : MonoBehaviour
         process.Enqueue(currentTile);
         currentTile.visited = true;
         // currentTile.parent == ?? leave parent as null
+
 
         while (process.Count > 0)
         {
@@ -308,7 +312,7 @@ public class TacticsMovement : MonoBehaviour
         {
             Tile t = tile.GetComponent<Tile>();
             t.FindNeightbors(jumpheight);
-            t.attackable = false;
+            t.Reset();
         }
     }
 }

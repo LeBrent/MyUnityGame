@@ -9,18 +9,12 @@ public class Unit : TacticsMovement
 
     void Start()
     {
-        Init();
+        Init(this);
     }
 
     void Update()
     {
         Debug.DrawRay(transform.position, transform.forward);
-
-        if (Health < 1)
-        {
-            TurnManager.DeleteUnit(this);
-            Destroy(this.gameObject);
-        }
 
         if (!turn)
         {
@@ -81,6 +75,11 @@ public class Unit : TacticsMovement
     public void DealDamage(Unit unit, int amount)
     {
         unit.DecreaseHealth(amount);
+
+        if (unit.Health < 1)
+        {
+            TurnManager.DeleteUnit(unit);
+        }
         TurnManager.EndTurn();
         Update();
     }
