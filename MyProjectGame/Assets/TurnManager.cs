@@ -7,7 +7,6 @@ public class TurnManager : MonoBehaviour
     static Dictionary<string, List<TacticsMovement>> units = new Dictionary<string, List<TacticsMovement>>();
     static Queue<string> turnKey = new Queue<string>();
     static Queue<TacticsMovement> turnTeam = new Queue<TacticsMovement>();
-
     static List<TacticsMovement> list;
 
     void Start ()

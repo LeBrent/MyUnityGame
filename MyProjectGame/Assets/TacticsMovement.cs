@@ -14,6 +14,7 @@ public class TacticsMovement : MonoBehaviour
     Stack<Tile> path = new Stack<Tile>();
     Tile currentTile;
 
+    public string playerName;
     public bool moving = false;
     public int moveRange = 5;
     public int attackRange = 6;

@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Unit : TacticsMovement
 {
@@ -78,6 +79,8 @@ public class Unit : TacticsMovement
 
         if (unit.Health < 1)
         {
+            this.GetComponentInChildren<Text>().enabled = true;
+
             TurnManager.DeleteUnit(unit);
         }
         TurnManager.EndTurn();
