@@ -87,10 +87,9 @@ public class TurnManager : MonoBehaviour
 
     public static void DeleteUnit(TacticsMovement unit)
     {
-        if (turnKey.Contains(unit.tag))
-        {
-            turnKey.Enqueue(unit.tag);
-            list.Remove(unit);
-        }
+        turnTeam.Enqueue(unit);
+        list.Remove(unit);
+        units[unit.tag].Remove(unit);
+        Destroy(unit.gameObject);
     }
 }
