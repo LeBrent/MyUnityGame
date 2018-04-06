@@ -15,9 +15,8 @@ public class TacticsMovement : MonoBehaviour
     Tile currentTile;
 
     public bool moving = false;
-    public bool attackPhase = false;
     public int moveRange = 5;
-    public int attackRange = 1;
+    public int attackRange = 6;
     public float jumpheight;
     public float moveSpeed = 4;
     public float jumpVelocity = 4.5f;
@@ -32,15 +31,13 @@ public class TacticsMovement : MonoBehaviour
     bool movingEdge = false;
     Vector3 jumpTarget;
 
-    protected void Init(Unit unit)
+    protected void Init()
     {
         tiles = GameObject.FindGameObjectsWithTag("Tile");
 
         halfheight = GetComponent<Collider>().bounds.extents.y;
 
         TurnManager.AddUnit(this);
-
-        unit.transform.parent = currentTile.transform;
     }
 
     public void GetCurrentTile()
@@ -68,6 +65,7 @@ public class TacticsMovement : MonoBehaviour
             t.FindNeightbors(jumpheight);
         }
     }
+
     public void FindSelectableTiles()
     {
         ComputeAdjentList();
@@ -99,29 +97,8 @@ public class TacticsMovement : MonoBehaviour
                         tile.distance = 1 + t.distance;
                         process.Enqueue(tile);
                     }
-                    if (t.GetComponent<Unit>() != null)
-                    {
-                        t.attackable = true;
-                    }
                 }
             }
-        }
-    }
-
-    public void FindAttackableTiles()
-    {
-        ComputeAdjentList();
-        GetCurrentTile();
-
-        Queue<Tile> process = new Queue<Tile>();
-
-        process.Enqueue(currentTile);
-        currentTile.visited = true;
-        // currentTile.parent == ?? leave parent as null
-
-        while (process.Count > 0)
-        {
-            Tile t = process.Dequeue();
 
             if (t.distance >= moveRange && t.distance < attackRange)
             {
@@ -137,15 +114,10 @@ public class TacticsMovement : MonoBehaviour
                         tile.distance = 1 + t.distance;
                         process.Enqueue(tile);
                     }
-                    if (t.GetComponent<Unit>() != null)
-                    {
-                        t.attackable = true;
-                    }
                 }
-            }
+            } 
         }
     }
-
     public void MoveToTarget(Unit unit, Tile tile)
     {
         path.Clear();
@@ -189,7 +161,7 @@ public class TacticsMovement : MonoBehaviour
                 transform.position += velocity * Time.deltaTime;
             }
             else
-            {
+	        {
                 //reached tile
                 transform.position = target;
                 path.Pop();
@@ -199,7 +171,6 @@ public class TacticsMovement : MonoBehaviour
         {
             RemoveSelectableTiles();
             moving = false;
-            attackPhase = true;
 
             TurnManager.EndTurn();
         }
@@ -212,7 +183,7 @@ public class TacticsMovement : MonoBehaviour
             currentTile.current = false;
             currentTile = null;
         }
-
+        
         foreach (Tile tile in attackables)
         {
             tile.Reset();
@@ -337,7 +308,7 @@ public class TacticsMovement : MonoBehaviour
         {
             Tile t = tile.GetComponent<Tile>();
             t.FindNeightbors(jumpheight);
-            t.Reset();
+            t.attackable = false;
         }
     }
 }

@@ -9,22 +9,22 @@ public class Unit : TacticsMovement
 
     void Start()
     {
-        GetCurrentTile();
-        Init(this);
+        Init();
     }
 
     void Update()
     {
         Debug.DrawRay(transform.position, transform.forward);
 
+        if (Health < 1)
+        {
+            TurnManager.DeleteUnit(this);
+            Destroy(this.gameObject);
+        }
+
         if (!turn)
         {
             return;
-        }
-
-        if (attackPhase)
-        {
-            FindAttackableTiles();
         }
 
         if (!moving)
@@ -75,16 +75,12 @@ public class Unit : TacticsMovement
     public void DecreaseHealth(int amount)
     {
         Health -= amount;
+        EndTurnUnit();
     }
 
     public void DealDamage(Unit unit, int amount)
     {
         unit.DecreaseHealth(amount);
-
-        if (unit.Health < 1)
-        {
-            TurnManager.DeleteUnit(unit);
-        }
         TurnManager.EndTurn();
         Update();
     }

@@ -24,7 +24,7 @@ public class Tile : MonoBehaviour
     }
 
     // Update is called once per frame
-    public void Update()
+    void Update()
     {
         if (current)
         {
@@ -88,7 +88,10 @@ public class Tile : MonoBehaviour
                 {
                     adjecenttiles.Add(tile);
                 }
-                //ELSE attackable = true
+                else
+                {
+                    attackable = true;
+                }
             }
         }
     }
